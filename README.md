@@ -1,2 +1,3 @@
-# spacex-clone
-A responsive https://www.spacex.com landing page made with bootstrap
+# Manjaro-clone
+
+A responsive https://manjaro.org landing page made with bootstrap
