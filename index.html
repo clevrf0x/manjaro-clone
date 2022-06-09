@@ -5,9 +5,188 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/244895cab4.js" crossorigin="anonymous"></script>
   <title>Manjaro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 
-<body></body>
+<body>
+  <header class="main">
+    <div id="navtop">
+      <nav class="navbar navbar-expand-lg navbar-custom py-3">
+        <div class="container-fluid">
+          <a class="nav-link nav-link-custom mx-1  d-inline d-lg-none" href="#"><img src="/assets/images/logo.svg"
+              class="" id="logo"><span>manjaro</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav w-100 justify-content-center">
+              <a class="nav-link nav-link-custom mx-1" href="#">Blog</a>
+              <a class="nav-link nav-link-custom mx-1" href="#">Forum</a>
+              <a class="nav-link nav-link-custom mx-1" href="#">Wiki</a>
+              <a class="nav-link nav-link-custom mx-1" href="#">Download</a>
+              <a class="nav-link nav-link-custom mx-1" href="#">Software</a>
+              <a class="nav-link nav-link-custom mx-1 d-none d-lg-block col-2 text-center" href="#"><img
+                  src="/assets/images/logo.svg" class="" id="logo"><span id="logo-text">manjaro</span></a>
+              <a class="nav-link nav-link-custom mx-1" href="#">Hardware</a>
+              <a class="nav-link nav-link-custom mx-1" href="#">Merchandise</a>
+              <a class="nav-link nav-link-custom mx-1" href="#">Donate</a>
+              <a class="nav-link nav-link-custom mx-1" href="#">Sponsors</a>
+              <a class="nav-link nav-link-custom mx-1" href="#">Partners</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container h-75 align-items-center">
+      <div class="row h-100 align-items-center justify-content-around">
+        <div class="col-12 col-md-5">
+          <h1 class="text-white h1 heading-custom">
+            <span class="heading-custom-manjaro">manjaro</span> OS for everyone
+          </h1>
+          <p class="lead text-light py-4">
+            <span>manjaro</span> has no adverts, licenses or fees, it respects user privacy and empowers them with
+            full
+            control over their hardware. It
+            can be used for development, gaming, 3D, office or home, it can be installed on tablets,
+            mobile, desktops, laptops and boards.
+          </p>
+          <div class="row text-white " id="bolt">
+            <div class="col-12">
+              <h5 class="py-3" style="font-size: 1rem; font-weight: 700;">FEATURES</h5>
+            </div>
+            <div class="col-12 col-md-6 ">
+              <li>No drivers, Plug & Play</li>
+              <li>Rolling release</li>
+              <li>Wide range of software</li>
+            </div>
+            <div class="col-12 col-md-6">
+              <li>Secure by default</li>
+              <li>Lightning fast</li>
+              <li>Easily installed</li>
+            </div>
+            <div class="col-12">
+              <li style="color:var(--yellow-primary); font-weight: 700;">Learn More</li>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 align-self-end">
+          <button class="button">Checkout the SER 4 <i class="fa-solid fa-angle-right"
+              style="margin-left: 0.7rem;"></i></button>
+          <img class="d-none d-lg-block penguin" src="/assets/images/penguin.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="one" class="py-5">
+    <div class="container h-100 py-5">
+      <div class="row  align-items-center h-100 justify-content-between">
+        <div class="col-12 col-md-5">
+          <i class="fa-solid fa-briefcase icon"></i>
+          <h3 class="py-3 fw-bolder fs-2">Let us handle <br>
+            your next <span style="color: blue;">OS integration</span> <span
+              style="color: var(--green-secondary);">partner with us</span></h3>
+          <p class="lead">We are on a mission to get the popular Manjaro Linux to the masses and get it working on your
+            hardware
+            straight out of
+            the box. Our partners are already benefiting from what open source software has to offer, it is reliable,
+            cost effective
+            and has better security by default.</p>
+        </div>
+        <div class="col-12 col-md-6 d-none d-md-block">
+          <img src="/assets/images/laptop.png" alt="" class="img-res img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="two" class="py-5 mb-md-5">
+    <div class="container h-100 py-5 mb-md-5">
+      <div class="row h-100 align-items-center h-100 justify-content-around">
+        <div class="col-12 col-md-6 d-none d-md-block">
+          <img src="assets/images/cloud.4f66792bdbda.png" alt="" class="img-res img-fluid">
+        </div>
+        <div class="col-12 col-md-5">
+          <p
+            style="background-color: var(--green-primary);color: rgba(0, 0, 0, 0.5) ;font-size: 0.8rem; font-weight:700; padding: 0 0.8rem; border-radius: 50px; display: inline-block;">
+            YOUR OS IN THE CLOUD
+          </p>
+          <h3 class="fw-bolder fs-1">Manjaro cloud solution</h3>
+          <p style="line-height: 1.5rem;"><span class="fw-bold">Manjaro running in the cloud with Shells </span> On any
+            device, from anywhere in
+            the world, featuring secure end to
+            end
+            encryption and backups, every purchase helps to fund the project.</p>
+          <a href="#" style="text-decoration: none; font-weight:600; color: #651fff">Learn More <i
+              class="fa-solid fa-angle-right" style="margin-left: 0.7rem;"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer" class="py-3">
+    <div class="container py-3">
+      <div class="row justify-content-center" style="border-bottom: 1px solid rgba(255, 255, 255, 0.5);">
+        <div class="col-12 col-md-4 pb-2 px-md-3 fw-light">
+          <h1><a class="nav-link nav-link-custom mb-3" href="#"><img src="/assets/images/logo.svg" class="mt-2"
+                id="logo"><span class="fs-5 fw-normal">manjaro</span></a></h1>
+          <p class="" style="font-size: 0.9rem;">Manjaro Linux Open Source operating system is, and always will
+            be, provided free of
+            charge.</p>
+          <p style="font-size: 0.9rem;">The Manjaro project is backed up by Manjaro Gmbh & Co, KG, an Open Source driven
+            company.</p>
+
+
+        </div>
+        <div class="col-6 col-md-2 my-3" style="font-weight: 500; line-height: 1.9rem;">
+          <li style="font-weight: 600;">Legal</li>
+          <li>Privacy Policy</li>
+          <li>Terms of use</li>
+          <li>Imprint</li>
+        </div>
+        <div class="col-6 col-md-2 pb-3 my-3" style="font-weight: 500; line-height: 1.9rem;">
+          <li style="font-weight: 600;">Social</li>
+          <li>Facebook</li>
+          <li>Telegram</li>
+          <li>Youtube</li>
+          <li>Twitter</li>
+        </div>
+        <div class="col-6 col-md-2 my-3" style="font-weight: 500; line-height: 1.9rem;">
+          <li style="font-weight: 600;">Distro</li>
+          <li>Code of Conduct</li>
+          <li>Source Code</li>
+          <li>Mirrors</li>
+          <li>Team</li>
+        </div>
+        <div class="col-6 col-md-2 my-3" style="font-weight: 500; line-height: 1.9rem;">
+          <li style="font-weight: 600;">Mailing lists </li>
+          <li>Development</li>
+          <li>Packages</li>
+          <li>Security</li>
+          <li>General</li>
+          <li>Testing</li>
+          <li>Mirrors</li>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 mt-2">
+          <p style="font-size: 0.9rem;">© Copyright 2022 Manjaro GmbH & Co. KG All rights reserved.</p>
+        </div>
+        <div class="col-12 col-md-6 justify-content-end d-md-flex mt-2">
+          <p style="font-weight: 500; line-height: 1.9rem;">Log in</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
 
 </html>
